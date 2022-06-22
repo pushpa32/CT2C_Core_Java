@@ -1,9 +1,7 @@
-
+package JavaTraining;
 import java.util.Scanner;
+public class OddEven {
 
-public class HellowWorldJava {
-
-	public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
         System.out.print("Enter a number: ");
@@ -17,3 +15,5 @@ public class HellowWorldJava {
 	}
 
 }
+
+
