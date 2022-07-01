@@ -22,6 +22,16 @@ public class IfElseExample {
 		
 		//NEXT Case 3
 		if(true);  //empty Statements, executable
+		
+		//with else if
+		int a = 10;
+		if(a == 5)
+			System.out.println("A equals to 5");
+		else if(a > 5)
+			System.out.println("A is greater to 5");
+		else 
+			System.out.println("A is smaller than 5");
+
 
 	}
 
