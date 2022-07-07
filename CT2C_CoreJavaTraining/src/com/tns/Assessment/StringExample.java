@@ -1,4 +1,4 @@
-package JavaTraining;
+package com.tns.Assessment;
 
 public class StringExample {
 

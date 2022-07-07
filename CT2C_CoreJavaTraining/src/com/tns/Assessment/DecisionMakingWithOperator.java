@@ -1,4 +1,4 @@
-package JavaTraining;
+package com.tns.Assessment;
 import java.util.Scanner;
 
 public class DecisionMakingWithOperator {
