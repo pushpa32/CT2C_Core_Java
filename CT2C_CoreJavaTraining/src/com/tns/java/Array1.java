@@ -4,6 +4,7 @@ import java.util.Scanner;
 public class Array1 {
 	public static void main(String[] args) {
 		
+		//User input for size of an array
 		int size;  
 		Scanner s=new Scanner(System.in);  
 		

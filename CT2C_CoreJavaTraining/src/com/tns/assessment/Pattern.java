@@ -1,4 +1,4 @@
-package com.tns.Assessment;
+package com.tns.assessment;
 import java.util.Scanner;
 
 public class Pattern {

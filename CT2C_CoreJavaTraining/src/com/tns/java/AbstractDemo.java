@@ -14,10 +14,7 @@ abstract class Vehicle   //partially implemented class
 {
 	public abstract void NoOfWheels();
 	
-	public abstract void m();
-
-
-	
+	public abstract void m();	
 }
 
 //abstract class Scooty class inheriting vehicle
