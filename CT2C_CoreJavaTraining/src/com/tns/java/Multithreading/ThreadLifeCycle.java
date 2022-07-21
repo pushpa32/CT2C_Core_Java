@@ -1,8 +1,8 @@
 //Create a thread using thread class- second technique
 
-package com.tns.java;
+package com.tns.java.Multithreading;
 
-class ChildThread extends Thread {
+class ChThread extends Thread {
 
 	// thread run method
 	public void run() {
@@ -20,11 +20,11 @@ public class ThreadLifeCycle {
 	public static void main(String[] args) {
 
 		// create an object for ChildThread class
-		ChildThread t = new ChildThread();
+		ChThread t = new ChThread();
 		t.start(); // starting the thread
 
 		for (int i = 0; i < 10; i++)
-			System.out.println("This is child thread");
+			System.out.println("Main thread");
 
 	}
 

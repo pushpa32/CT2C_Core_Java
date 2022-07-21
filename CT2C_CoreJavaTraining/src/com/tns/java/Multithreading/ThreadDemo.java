@@ -1,4 +1,4 @@
-package com.tns.java;
+package com.tns.java.Multithreading;
 
 //Multithreading with Runnable Interface
 class MyThread implements Runnable {
