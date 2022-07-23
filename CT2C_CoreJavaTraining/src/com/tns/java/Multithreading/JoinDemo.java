@@ -23,7 +23,7 @@ public class JoinDemo {
 
 	public static void main(String[] args) throws InterruptedException {
 
-		// create an objec
+		// create an object
 		ChildThread c = new ChildThread();
 		c.start(); // starting the thread
 		c.join(2000); // ChildThread wants to wait
