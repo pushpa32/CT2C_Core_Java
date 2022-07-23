@@ -1,8 +1,12 @@
+//Java Program to demonstrate the synchronization in multithreading
+
 package com.tns.java.Multithreading;
 
+//counter class
 class Counter {
 	int count;
 
+	// synchronized function
 	public synchronized void inc() {
 		count++;
 	}
@@ -12,7 +16,9 @@ public class SynchronizedDemo {
 
 	public static void main(String[] args) throws InterruptedException {
 
+		// create object fot counter class
 		Counter c = new Counter();
+
 		// first thread
 		Thread t1 = new Thread(new Runnable() {
 
